@@ -1,0 +1,108 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px 35px;
+    line-height: 1.4;
+    color: #222;
+    background-color: white;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 8px 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+header p {
+    margin: 3px 0;
+    font-size: 13px;
+}
+
+
+/* ================= SECTION HEADINGS ================= */
+
+h2 {
+    font-size: 17px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    padding-bottom: 4px;
+    border-bottom: 1.5px solid #222;
+    text-transform: uppercase;
+}
+
+
+/* ================= SUB HEADINGS ================= */
+
+h3 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+
+/* ================= PARAGRAPHS ================= */
+
+p {
+    font-size: 13px;
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+
+
+/* ================= LISTS ================= */
+
+ul {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+
+/* ================= HORIZONTAL LINES ================= */
+
+hr {
+    border: none;
+    border-top: 1px solid #d0d0d0;
+    margin: 12px 0;
+}
+
+
+/* ================= PRINT / PDF ================= */
+
+@media print {
+
+    body {
+        margin: 0;
+        padding: 20px;
+        max-width: none;
+    }
+
+    h2 {
+        break-after: avoid;
+    }
+
+    h3 {
+        break-after: avoid;
+    }
+
+    ul,
+    p {
+        break-inside: avoid;
+    }
+
+}
+```
